@@ -1,4 +1,4 @@
-# This is the source code of AyuGram for Desktop.
+# This is the source code of TeleRynda for Desktop.
 #
 # We do not and cannot prevent the use of our code,
 # but be respectful and credit the original author.
@@ -7,7 +7,7 @@
 
 add_library(icu_regex_minimal STATIC)
 
-add_library(ayugram::lib_icu ALIAS icu_regex_minimal)
+add_library(telerynda::lib_icu ALIAS icu_regex_minimal)
 
 set_property(TARGET icu_regex_minimal PROPERTY CXX_STANDARD 17)
 set_property(TARGET icu_regex_minimal PROPERTY CXX_STANDARD_REQUIRED ON)
